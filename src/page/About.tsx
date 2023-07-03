@@ -15,10 +15,6 @@ export default function About(){
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Чуток обо мне</Form.Label>
-                    <Form.Control as="textarea" rows={5} value="
-                    Меня зовут Вова, мне 18, живу в Перми. Ответственный и коммуникабельный) Начал заниматься фронтенд разработкой больше полугода назад, на протяжении всего времени
-                    стараюсь постоянно развиваться и прогрессировать. Очень хотелось бы развиваться дальше, решать задачи различной сложности и просто становиться лучше. 
-                    "/>
                 </Form.Group>
             </Form>
         </div>
