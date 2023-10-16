@@ -5,7 +5,6 @@ import { store } from './store/store'
 import Home from './page/Home'
 import User from './components/User'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import About from './page/About';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/user" element={<User />} />
-            <Route path="/about" element={<About />} />
           </Routes>
         </BrowserRouter>
       </Provider>
